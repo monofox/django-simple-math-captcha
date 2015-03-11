@@ -1,7 +1,6 @@
 VERSION = (1, 0, 5, "f", 0)  # following PEP 386
 DEV_N = None
 
-
 def get_version():  # pragma: nocover
     version = "%s.%s" % (VERSION[0], VERSION[1])
     if VERSION[2]:

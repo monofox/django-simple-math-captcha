@@ -21,6 +21,10 @@ You can do any of the following to install ``django-simple-math-captcha``
 - Download or "git clone" the package and run ``setup.py``.
 - Download or "git clone" the package and put the ``simplemathcaptcha``
   directory on your ``PYTHONPATH``.
+- After installation, you can add the locale things in your django settings. 
+  For this add to the LOCALE_PATHS (didn't found a better way):
+  ``os.path.join(os.path.dirname(upath(sys.modules[simplemathcaptcha.__name__].__file__)), 'locale')``
+  You have to import: ``from django.utils._os import upath``, ``import os, sys, simplemathcaptcha``
 
 Usage
 =====
