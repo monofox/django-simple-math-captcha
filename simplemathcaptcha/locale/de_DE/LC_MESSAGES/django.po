@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Language: de_DE\n"
-"X-Source-Language: C\n"
+"X-Source-Language: en_US\n"
 
 #: fields.py:14
 msgid "Please check your math and try again."
